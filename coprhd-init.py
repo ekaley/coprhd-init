@@ -223,8 +223,7 @@ def createWorkflowAddNode(ansiblePrimitiveId):
          },
          "attributes":{
             "wait_for_task":true,
-            "timeout":"1000000",
-            "host_key_checking":false
+            "timeout":"1000000"
          },
          "success_criteria":null,
          "next":{
@@ -305,8 +304,7 @@ def createWorkflowRemoveNode(ansiblePrimitiveId):
          },
          "attributes":{
             "wait_for_task":true,
-            "timeout":"1000000",
-            "host_key_checking":false
+            "timeout":"1000000"
          },
          "success_criteria":null,
          "next":{
